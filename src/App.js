@@ -1,16 +1,9 @@
 import App from './App';
 
-let myNumbers = [1, 2, 3, 4, 5, 10, 9, 8, 7, 6]
-console.log(myNumbers[0])
-console.log(myNumbers[1])
-console.log(myNumbers[2])
-console.log(myNumbers[3])
-console.log(myNumbers[4])
-console.log(myNumbers[5])
-console.log(myNumbers[6])
-console.log(myNumbers[7])
-console.log(myNumbers[8])
-console.log(myNumbers[9])
-console.log(myNumbers[10])
 
+let doubleMa = [10,20,30,40,50,60,70,80,90,100];
+let splice = doubleMa.splice(5,4);
+
+console.log(splice);
+console.log(doubleMa);
 export default App;
