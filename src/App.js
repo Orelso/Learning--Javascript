@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import App from './App';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+let myNumbers = [1, 2, 3, 4, 5, 10, 9, 8, 7, 6]
+console.log(myNumbers[0])
+console.log(myNumbers[1])
+console.log(myNumbers[2])
+console.log(myNumbers[3])
+console.log(myNumbers[4])
+console.log(myNumbers[5])
+console.log(myNumbers[6])
+console.log(myNumbers[7])
+console.log(myNumbers[8])
+console.log(myNumbers[9])
+console.log(myNumbers[10])
 
 export default App;
