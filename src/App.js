@@ -1,9 +1,12 @@
 import App from './App';
 
+for (var i = 0; i < 100; i++) {
+  // check that the number is even
+  if (i % 2 == 0) {
+    continue;
+  }
+  // if we got here, then i is odd.
+  console.log(i + " is an odd number.");
+}
 
-let doubleMa = [10,20,30,40,50,60,70,80,90,100];
-let splice = doubleMa.splice(5,4);
-
-console.log(splice);
-console.log(doubleMa);
 export default App;
