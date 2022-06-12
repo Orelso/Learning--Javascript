@@ -1,17 +1,15 @@
 import App from './App';
 
-
-let pokemon = {
-  name: 'Charizard',
-  name1: 'Mew',
-  name2: 'Muk',
-  name3: 'Sandshrew'
+function choose(name) {
+  return "I choose you " + name + "!";
 }
 
-for (let mon in pokemon) {
-  if (pokemon.hasOwnProperty(mon)) {
-    console.log("Do you like " + pokemon[mon] + "? ")
-  }
+console.log(choose("Sandshrew"))
+
+
+let favorite = function (name) {
+  return "My favorite fruit is a " + name + "!";
 }
 
+console.log(favorite("Strawberry"))
 export default App;
