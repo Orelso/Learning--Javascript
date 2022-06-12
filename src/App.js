@@ -1,12 +1,17 @@
 import App from './App';
 
-for (var i = 0; i < 100; i++) {
-  // check that the number is even
-  if (i % 2 == 0) {
-    continue;
+
+let pokemon = {
+  name: 'Charizard',
+  name1: 'Mew',
+  name2: 'Muk',
+  name3: 'Sandshrew'
+}
+
+for (let mon in pokemon) {
+  if (pokemon.hasOwnProperty(mon)) {
+    console.log("Do you like " + pokemon[mon] + "? ")
   }
-  // if we got here, then i is odd.
-  console.log(i + " is an odd number.");
 }
 
 export default App;
