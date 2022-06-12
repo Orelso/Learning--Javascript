@@ -1,15 +1,11 @@
 import App from './App';
 
-function choose(name) {
-  return "I choose you " + name + "!";
-}
+setTimeout(function () {
+  console.log("Done!");
+}, 5000);
 
-console.log(choose("Sandshrew"))
+setTimeout(function () {
+  console.log('Valmis');
+}, 10000)
 
-
-let favorite = function (name) {
-  return "My favorite fruit is a " + name + "!";
-}
-
-console.log(favorite("Strawberry"))
 export default App;
